@@ -35,3 +35,9 @@ Counter >> increment [
    count := count + 1
 
 ]
+
+{ #category : #initialization }
+Counter >> initialize [
+"set the initial value of the count to 0"
+   count := 0
+]
