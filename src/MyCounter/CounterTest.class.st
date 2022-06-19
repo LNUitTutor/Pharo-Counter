@@ -39,6 +39,14 @@ self assert: c count equals: 2
 ]
 
 { #category : #tests }
+CounterTest >> testIncrementBy [
+| c |
+c := Counter new.
+c count: -2; incrementBy: 5.
+self assert: c count equals: 3
+]
+
+{ #category : #tests }
 CounterTest >> testInitialize [
 self assert: Counter new count equals: 0
 ]

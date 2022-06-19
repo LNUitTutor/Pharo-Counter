@@ -41,7 +41,7 @@ Counter >> increment [
 
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #operations }
 Counter >> incrementBy: aNumber [
 self count: self count + aNumber 
 ]
