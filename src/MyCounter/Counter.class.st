@@ -41,6 +41,11 @@ Counter >> increment [
 
 ]
 
+{ #category : #'as yet unclassified' }
+Counter >> incrementBy: aNumber [
+self count: self count + aNumber 
+]
+
 { #category : #initialization }
 Counter >> initialize [
 "set the initial value of the count to 0"
